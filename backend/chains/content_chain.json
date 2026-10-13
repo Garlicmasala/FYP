@@ -1,0 +1,255 @@
+{
+  "chain": "Content Chain (GCP)",
+  "provider": "GCP",
+  "contract": "ContentVerification",
+  "chainId": 1,
+  "consensus": "Proof of Stake",
+  "contract_address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+  "role": "ownership proof — SHA-256 digest + IPFS CID, immutable",
+  "head_block": 1002403,
+  "head_block_hash": "dbe4a4d94dd69cb3a2f3c767e3f831f6f7447c2ce3be47f7ef06acda6b87da7d",
+  "blocks": [
+    {
+      "number": 1002400,
+      "hash": "65d860dc48be0e07b66539ef9bf6a99c35de0d4a353c1ac1c64ca7d276d075ae",
+      "parentHash": "6ff26f3fde732815900684f59024085c058e50064414d5c961d4139f8d38c36d",
+      "stateRoot": "e761f05f5eed01b4034b62de04b886cef07f8f0ebaf44a77a163387e9bca6f71",
+      "transactionsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "receiptsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "gasUsed": 0,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 1,
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "miner": "0x0000000000000000000000000000000000000000",
+      "transactions": []
+    },
+    {
+      "number": 1002401,
+      "parentHash": "65d860dc48be0e07b66539ef9bf6a99c35de0d4a353c1ac1c64ca7d276d075ae",
+      "stateRoot": "3cbc6d497099984975096ea3db95944eb1a483bcb2cd4f183796a0c464a68325",
+      "transactionsRoot": "543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7",
+      "receiptsRoot": "d75ce0a5a9325de88dd30a2e86bd2d6ab1c887f86a322c67bc552df97ee76f42",
+      "gasUsed": 87432,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 21,
+      "timestamp": "2026-10-11T09:36:09.000Z",
+      "miner": "0x9A0C4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E2F",
+      "transactions": [
+        "0x543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7"
+      ],
+      "hash": "6ba88fb7e450172ba16529c1a31658e71566632fb5ea2ca9f279feddd3afed4e"
+    },
+    {
+      "number": 1002402,
+      "parentHash": "6ba88fb7e450172ba16529c1a31658e71566632fb5ea2ca9f279feddd3afed4e",
+      "stateRoot": "3a92ae31d2ab1598e361638e73344aebf8de1145f1f011c04d62ad3af40dfbb5",
+      "transactionsRoot": "6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b",
+      "receiptsRoot": "eda9df5709e1d09c2bd04cda95fe92f26efcc0de0121ff0ab711cd95609a2ac1",
+      "gasUsed": 87432,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 22,
+      "timestamp": "2026-10-11T09:36:09.000Z",
+      "miner": "0x9A0C4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E2F",
+      "transactions": [
+        "0x6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b"
+      ],
+      "hash": "e23f5ba770f5ef46476cfed2febb367dad339d4e4d323029b4c930e965081cae"
+    },
+    {
+      "number": 1002403,
+      "parentHash": "e23f5ba770f5ef46476cfed2febb367dad339d4e4d323029b4c930e965081cae",
+      "stateRoot": "5afabe394aa88a7c11abf38c3a8870c82faeb9f589dd548c669d778fa7eda3f1",
+      "transactionsRoot": "5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a",
+      "receiptsRoot": "8807ec96934f0d34a1e55cfbdf10be114328b140f36ad33b38c74a4876e35009",
+      "gasUsed": 87432,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 23,
+      "timestamp": "2026-10-11T09:36:09.000Z",
+      "miner": "0x9A0C4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E2F",
+      "transactions": [
+        "0x5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a"
+      ],
+      "hash": "dbe4a4d94dd69cb3a2f3c767e3f831f6f7447c2ce3be47f7ef06acda6b87da7d"
+    }
+  ],
+  "transactions": [
+    {
+      "hash": "0x543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+      "nonce": 0,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 21,
+      "maxFeePerGasGwei": 25,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 87432,
+      "inputData": "0xad8bebeceedebe523515e36cb1fc4637afadb274504d70239250afed056efa",
+      "decodedInput": "register(hash: 0x77a083bdcdc14a528388…, cid: 'Qm93yUcAzasRoU5MUgbwz4Rj…')",
+      "contractFunction": "register(bytes32,string)",
+      "status": "success",
+      "blockNumber": 1002401,
+      "blockHash": "6ba88fb7e450172ba16529c1a31658e71566632fb5ea2ca9f279feddd3afed4e",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    },
+    {
+      "hash": "0x6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+      "nonce": 1,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 22,
+      "maxFeePerGasGwei": 26,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 87432,
+      "inputData": "0x01d1a5d380f1fb417127f68381fa11eafc8c74da98b5fb67967ab1f70fd3c9",
+      "decodedInput": "register(hash: 0xafaef65d4497a8a85bc9…, cid: 'QmCpo5uxLfqsQLv7Rgsfb9pr…')",
+      "contractFunction": "register(bytes32,string)",
+      "status": "success",
+      "blockNumber": 1002402,
+      "blockHash": "e23f5ba770f5ef46476cfed2febb367dad339d4e4d323029b4c930e965081cae",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    },
+    {
+      "hash": "0x5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+      "nonce": 2,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 23,
+      "maxFeePerGasGwei": 27,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 87432,
+      "inputData": "0xfb8c16d76af68e7ab8ce4de1f653e627fc5cc2dc375f21dae371c0b5ec83a2",
+      "decodedInput": "register(hash: 0x27688b31b9c2eea56c7c…, cid: 'Qm3eqMqQD6mzr6EzW2MExdit…')",
+      "contractFunction": "register(bytes32,string)",
+      "status": "success",
+      "blockNumber": 1002403,
+      "blockHash": "dbe4a4d94dd69cb3a2f3c767e3f831f6f7447c2ce3be47f7ef06acda6b87da7d",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "status": "success",
+      "transactionHash": "0x543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7",
+      "blockNumber": 1002401,
+      "blockHash": "6ba88fb7e450172ba16529c1a31658e71566632fb5ea2ca9f279feddd3afed4e",
+      "cumulativeGasUsed": 87432,
+      "logs": [
+        {
+          "address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+          "topics": [
+            "e7bd85e8155a7cbfc5ea2bd60627d282c4809a20c57af7715bca547b1b93fffe"
+          ],
+          "data": "0x543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7"
+        }
+      ]
+    },
+    {
+      "status": "success",
+      "transactionHash": "0x6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b",
+      "blockNumber": 1002402,
+      "blockHash": "e23f5ba770f5ef46476cfed2febb367dad339d4e4d323029b4c930e965081cae",
+      "cumulativeGasUsed": 87432,
+      "logs": [
+        {
+          "address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+          "topics": [
+            "e7bd85e8155a7cbfc5ea2bd60627d282c4809a20c57af7715bca547b1b93fffe"
+          ],
+          "data": "0x6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b"
+        }
+      ]
+    },
+    {
+      "status": "success",
+      "transactionHash": "0x5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a",
+      "blockNumber": 1002403,
+      "blockHash": "dbe4a4d94dd69cb3a2f3c767e3f831f6f7447c2ce3be47f7ef06acda6b87da7d",
+      "cumulativeGasUsed": 87432,
+      "logs": [
+        {
+          "address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+          "topics": [
+            "e7bd85e8155a7cbfc5ea2bd60627d282c4809a20c57af7715bca547b1b93fffe"
+          ],
+          "data": "0x5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "title": "NexusHub Architecture Walkthrough",
+      "description": "",
+      "uploaderUsername": "garrick",
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "sha256": "77a083bdcdc14a52838843f0ed340c849adb415d539c4f40829930a1df08179a",
+      "ipfsCid": "Qm93yUcAzasRoU5MUgbwz4RjCmfKZ76nwKyjGfztChpyff",
+      "sizeBytes": 277063,
+      "mimeType": "video/mp4",
+      "durationSeconds": 0,
+      "thumbnailGradient": "linear-gradient(135deg,#1DA84E,#4ADE80)",
+      "viewCount": 0,
+      "isActive": true,
+      "blockNumber": 1002401,
+      "blockHash": "6ba88fb7e450172ba16529c1a31658e71566632fb5ea2ca9f279feddd3afed4e",
+      "txHash": "0x543f3bea1f67c20ae8733de3b8b2d1a87d2fadbb6335126c29d9530b86e596d7",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 0,
+      "gasUsed": 87432,
+      "gasPriceGwei": 21,
+      "status": "success",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    },
+    {
+      "title": "Behind the Scenes: FYP Week 1",
+      "description": "",
+      "uploaderUsername": "garrick",
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "sha256": "afaef65d4497a8a85bc9eb3199bd7c6e47c499fee48fa1c74f81b6e814b678c9",
+      "ipfsCid": "QmCpo5uxLfqsQLv7Rgsfb9prTFPx2hdYntQCWTpSC1EXDr",
+      "sizeBytes": 465889,
+      "mimeType": "video/mp4",
+      "durationSeconds": 0,
+      "thumbnailGradient": "linear-gradient(135deg,#1DA84E,#4ADE80)",
+      "viewCount": 0,
+      "isActive": true,
+      "blockNumber": 1002402,
+      "blockHash": "e23f5ba770f5ef46476cfed2febb367dad339d4e4d323029b4c930e965081cae",
+      "txHash": "0x6a7522629f92e956ccc52198142500a10944af0aaa9ea4f0f8d360f1a6cb1b5b",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 1,
+      "gasUsed": 87432,
+      "gasPriceGwei": 22,
+      "status": "success",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    },
+    {
+      "title": "Blockchain Verification Demo",
+      "description": "",
+      "uploaderUsername": "garrick",
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "sha256": "27688b31b9c2eea56c7c9465b8195d1141a65249920de737ea914d9be50304d6",
+      "ipfsCid": "Qm3eqMqQD6mzr6EzW2MExdit7953GGnRoJg7t4aWUWxRZo",
+      "sizeBytes": 258096,
+      "mimeType": "video/mp4",
+      "durationSeconds": 0,
+      "thumbnailGradient": "linear-gradient(135deg,#1DA84E,#4ADE80)",
+      "viewCount": 0,
+      "isActive": true,
+      "blockNumber": 1002403,
+      "blockHash": "dbe4a4d94dd69cb3a2f3c767e3f831f6f7447c2ce3be47f7ef06acda6b87da7d",
+      "txHash": "0x5fae113ff04474262475d769e4d254a2f1a4c5c1b92b7e0fd8445e916029d26a",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 2,
+      "gasUsed": 87432,
+      "gasPriceGwei": 23,
+      "status": "success",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    }
+  ]
+}

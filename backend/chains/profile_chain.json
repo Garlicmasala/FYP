@@ -1,0 +1,182 @@
+{
+  "chain": "Profile Chain",
+  "provider": "Azure",
+  "contract": "Profile",
+  "chainId": 1,
+  "consensus": "Proof of Stake",
+  "contract_address": "0x9A7E2d6Fb5C8143E0A1D2C3B4E5F60718293A4B5C",
+  "role": "public metadata (username, bio) — references Identity Chain identityRef",
+  "head_block": 1002402,
+  "head_block_hash": "d56ba6610474b9b888c9ee70031a9e66ecbfbb7a62545bbe5ac40e544ecc9fcf",
+  "blocks": [
+    {
+      "number": 1002400,
+      "hash": "6b38e3176e47a181e3df1db0895acf0bc63bdb9adad97eac25fa1db7cab1da9b",
+      "parentHash": "a6d6dfb10d502b7b491328d5cff8199774665c1ffe914a147affd593075bf2ff",
+      "stateRoot": "8a948e76ee418f0c708fb9eeb2aca2375e83f687956f620d448cbcf916b3212f",
+      "transactionsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "receiptsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "gasUsed": 0,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 1,
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "miner": "0x0000000000000000000000000000000000000000",
+      "transactions": []
+    },
+    {
+      "number": 1002401,
+      "parentHash": "6b38e3176e47a181e3df1db0895acf0bc63bdb9adad97eac25fa1db7cab1da9b",
+      "stateRoot": "77eec6112ca3f0df6a970addbed549f41dce690b0930e3279426a33ab980d5fd",
+      "transactionsRoot": "2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11",
+      "receiptsRoot": "94a99215c0455be6531fdd829efc58c7d63dd43d5e6bc7be3f190a608e2bc687",
+      "gasUsed": 63412,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 21,
+      "timestamp": "2026-10-11T09:36:09.000Z",
+      "miner": "0x6d2C9A4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E1",
+      "transactions": [
+        "0x2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11"
+      ],
+      "hash": "0a93a6bf5b54ac55aac7c2d32f422f1e553e710219b47bee53be82f1f4a63cec"
+    },
+    {
+      "number": 1002402,
+      "parentHash": "0a93a6bf5b54ac55aac7c2d32f422f1e553e710219b47bee53be82f1f4a63cec",
+      "stateRoot": "d292a19b3feb185943f254728c555ef3c46fa317d9181c3a816df7fe4642ee6d",
+      "transactionsRoot": "a80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d",
+      "receiptsRoot": "4b0a9f2df2f1a5a85754701818798e68c50f695e446be79082055562d5804f30",
+      "gasUsed": 51209,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 22,
+      "timestamp": "2026-10-13T03:58:34.000Z",
+      "miner": "0x6d2C9A4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E1",
+      "transactions": [
+        "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d"
+      ],
+      "hash": "d56ba6610474b9b888c9ee70031a9e66ecbfbb7a62545bbe5ac40e544ecc9fcf"
+    }
+  ],
+  "transactions": [
+    {
+      "hash": "0x2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x9A7E2d6Fb5C8143E0A1D2C3B4E5F60718293A4B5C",
+      "nonce": 0,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 21,
+      "maxFeePerGasGwei": 25,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 63412,
+      "inputData": "0x41c80a18fa6b4ddcdb354100ca632bb1bceb66906ddad5fb1f5c24147306a4",
+      "decodedInput": "registerProfile(username: garrick, avatar: #1DA84E)",
+      "contractFunction": "registerProfile(string,string)",
+      "status": "success",
+      "blockNumber": 1002401,
+      "blockHash": "0a93a6bf5b54ac55aac7c2d32f422f1e553e710219b47bee53be82f1f4a63cec",
+      "timestamp": "2026-10-11T09:36:09.000Z"
+    },
+    {
+      "hash": "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x9A7E2d6Fb5C8143E0A1D2C3B4E5F60718293A4B5C",
+      "nonce": 1,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 22,
+      "maxFeePerGasGwei": 26,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 51209,
+      "inputData": "0x46f14487eaabc55742a3b644c7a94dadb689b73818e617518a1ea0335c0315",
+      "decodedInput": "updateProfile(username: garrick, avatar: #5865F2)",
+      "contractFunction": "updateProfile(string,string)",
+      "status": "success",
+      "blockNumber": 1002402,
+      "blockHash": "d56ba6610474b9b888c9ee70031a9e66ecbfbb7a62545bbe5ac40e544ecc9fcf",
+      "timestamp": "2026-10-13T03:58:34.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "status": "success",
+      "transactionHash": "0x2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11",
+      "blockNumber": 1002401,
+      "blockHash": "0a93a6bf5b54ac55aac7c2d32f422f1e553e710219b47bee53be82f1f4a63cec",
+      "cumulativeGasUsed": 63412,
+      "logs": [
+        {
+          "address": "0x9A7E2d6Fb5C8143E0A1D2C3B4E5F60718293A4B5C",
+          "topics": [
+            "a494b2c1e7e556ca192f18920f762ef0ce6f640c3034d60f41437d86788b92b9"
+          ],
+          "data": "0x2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11"
+        }
+      ]
+    },
+    {
+      "status": "success",
+      "transactionHash": "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d",
+      "blockNumber": 1002402,
+      "blockHash": "d56ba6610474b9b888c9ee70031a9e66ecbfbb7a62545bbe5ac40e544ecc9fcf",
+      "cumulativeGasUsed": 51209,
+      "logs": [
+        {
+          "address": "0x9A7E2d6Fb5C8143E0A1D2C3B4E5F60718293A4B5C",
+          "topics": [
+            "78afde3cc20356eabf7ade5ffa48c3baa0e6e19f17d2d3cfbe6d4dc541d466e8"
+          ],
+          "data": "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "username": "garrick",
+      "displayName": "Garrick",
+      "bio": "FYP student. Building NexusHub on Ethereum infrastructure.",
+      "websiteUrl": null,
+      "avatarColor": "#1DA84E",
+      "bannerColor": "#12182A",
+      "videoCount": 0,
+      "createdAt": "2026-10-11T09:36:09.000Z",
+      "blockNumber": 1002401,
+      "blockHash": "0a93a6bf5b54ac55aac7c2d32f422f1e553e710219b47bee53be82f1f4a63cec",
+      "txHash": "0x2f250b33759d819f84f33d79c41d265acba3526925e02f9721bb2e57d284ec11",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 0,
+      "gasUsed": 63412,
+      "gasPriceGwei": 21,
+      "status": "success",
+      "timestamp": "2026-10-11T09:36:09.000Z",
+      "supersededByBlock": 1002402,
+      "supersededByTx": "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d",
+      "isCurrent": false
+    },
+    {
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "username": "garrick",
+      "displayName": "Garrick",
+      "bio": "Updated bio v2 — append-only chain test.",
+      "websiteUrl": null,
+      "avatarColor": "#5865F2",
+      "bannerColor": "#12182A",
+      "videoCount": 0,
+      "createdAt": "2026-10-11T09:36:09.000Z",
+      "identityBlockNumber": 1002401,
+      "identityBlockHash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd",
+      "identityTxHash": "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd",
+      "blockNumber": 1002402,
+      "blockHash": "d56ba6610474b9b888c9ee70031a9e66ecbfbb7a62545bbe5ac40e544ecc9fcf",
+      "txHash": "0xa80e0e70987104b9e910ab9d66fa82cfed759bac4fc4066e9d7d038adac7977d",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 1,
+      "gasUsed": 51209,
+      "gasPriceGwei": 22,
+      "status": "success",
+      "timestamp": "2026-10-13T03:58:34.000Z",
+      "isCurrent": true
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "chain": "Identity Chain",
+  "provider": "AWS",
+  "contract": "Identity",
+  "chainId": 1,
+  "consensus": "Proof of Stake",
+  "contract_address": "0x6c207cF3923E277E2d5d4a5b8A7C1f4D1B0E5A22",
+  "role": "root trust layer — local accounts, addresses and identity references",
+  "head_block": 1002401,
+  "head_block_hash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd",
+  "blocks": [
+    {
+      "number": 1002400,
+      "hash": "20e86554be9195015b8af9672e9bd1d6287e0aea8cc6d9e990edd1440b1c46e0",
+      "parentHash": "ba69e5f9793ca6a2e7bdb1a33842b36f1579125a1e4ccd45d8110b6181c88727",
+      "stateRoot": "c97d1f445409289bbe08a126b6fdeb8e3e2b8c5680bbca0ad8ad6023092c1d1a",
+      "transactionsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "receiptsRoot": "807aef4c9cc0f5429fb80497b95b9a3e079a123d8164fd9df464cf2046c8713d",
+      "gasUsed": 0,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 1,
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "miner": "0x0000000000000000000000000000000000000000",
+      "transactions": []
+    },
+    {
+      "number": 1002401,
+      "parentHash": "20e86554be9195015b8af9672e9bd1d6287e0aea8cc6d9e990edd1440b1c46e0",
+      "stateRoot": "122dbcac2e41943fb62e4c3b5a70f93524a8e721afbcf9edd37b9f1263303fcb",
+      "transactionsRoot": "49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd",
+      "receiptsRoot": "c8a8ade78e78b90983fd410f00213a1468eb3819213b280f3712dc3fe6877218",
+      "gasUsed": 46221,
+      "gasLimit": 30000000,
+      "baseFeePerGasGwei": 21,
+      "timestamp": "2026-10-11T09:30:05.000Z",
+      "miner": "0x7f1E5dE4b8E3F2a6C9D0A4b8E3F2a6C9D0A4b8E0",
+      "transactions": [
+        "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd"
+      ],
+      "hash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd"
+    }
+  ],
+  "transactions": [
+    {
+      "hash": "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "to": "0x6c207cF3923E277E2d5d4a5b8A7C1f4D1B0E5A22",
+      "nonce": 0,
+      "value": "0 ETH",
+      "gasLimit": 30000000,
+      "gasPriceGwei": 21,
+      "maxFeePerGasGwei": 25,
+      "maxPriorityFeePerGasGwei": 1,
+      "gasUsed": 46221,
+      "inputData": "0x344419a8ece2bc87c87f7c3364a7d194adcd33e45008f23845eff72416f48e",
+      "decodedInput": "register(builtin admin: garrick@nexushub.dev)",
+      "contractFunction": "register(bytes32)",
+      "status": "success",
+      "blockNumber": 1002401,
+      "blockHash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd",
+      "timestamp": "2026-10-11T09:30:05.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "status": "success",
+      "transactionHash": "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd",
+      "blockNumber": 1002401,
+      "blockHash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd",
+      "cumulativeGasUsed": 46221,
+      "logs": [
+        {
+          "address": "0x6c207cF3923E277E2d5d4a5b8A7C1f4D1B0E5A22",
+          "topics": [
+            "1aa130916aaae4c2d5b386c0bcc3e8259fffaab5d402ef5054dce7a35e5c2653"
+          ],
+          "data": "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "identityRef": "994a7e1061577232e30ca0a3614a560fabe0a42ba98d695e9bda1f052e172bc3",
+      "email": "garrick@nexushub.dev",
+      "password": "garrick123",
+      "displayName": "Garrick",
+      "role": "ADMIN",
+      "isActive": true,
+      "emailVerified": true,
+      "registeredAt": "2026-10-11T09:30:05.000Z",
+      "balance": "0 ETH",
+      "isBuiltIn": true,
+      "blockNumber": 1002401,
+      "txHash": "0x49ad013889920d826e7f099aafd5bf5b8b31833a1a4ec23b719739aad80c72bd",
+      "from": "0x994a7e1061577232e30ca0a3614a560fabe0a42b",
+      "nonce": 0,
+      "gasUsed": 46221,
+      "gasPriceGwei": 21,
+      "status": "success",
+      "timestamp": "2026-10-11T09:30:05.000Z",
+      "blockHash": "ef59d54c850b3e6238f6d1b1aa34d8c63d453b0b50fe650a6f70bb94b3282ccd"
+    }
+  ]
+}
